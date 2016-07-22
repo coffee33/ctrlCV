@@ -3,8 +3,43 @@
 	"EngineAssociation": "4.12",
 	"Category": "",
 	"Description": "",
+	"Plugins": [
+		{
+			"Name": "GitSourceControl",
+			"Enabled": false
+		},
+		{
+			"Name": "PerforceSourceControl",
+			"Enabled": false
+		},
+		{
+			"Name": "SubversionSourceControl",
+			"Enabled": false
+		},
+		{
+			"Name": "GearVR",
+			"Enabled": false
+		},
+		{
+			"Name": "OculusInput",
+			"Enabled": false
+		},
+		{
+			"Name": "OculusLibrary",
+			"Enabled": false
+		},
+		{
+			"Name": "OculusRift",
+			"Enabled": false
+		},
+		{
+			"Name": "SteamVR",
+			"Enabled": false
+		}
+	],
 	"TargetPlatforms": [
 		"Android",
-		"WindowsNoEditor"
+		"WindowsNoEditor",
+		"IOS"
 	]
 }
